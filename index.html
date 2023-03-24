@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<!-- Font Google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Cairo:wght@300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap"
+		rel="stylesheet" />
+	<!-- Animation on scroll library-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<!-- Swiper library -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/Css/all.min.css" />
+	<link rel="stylesheet" href="/Css/master.css" />
+</head>
+
+<body>
+	<!-- Navebar -->
+	<nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Offcanvas navbar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+				aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex mt-3" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+						<button class="btn btn-outline-success" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- End Navbar -->
+	<main class="position-relative">
+		<!-- Landing -->
+		<section class="landing text-center">
+			<div class="information w-100">
+				<div class="info text-white">
+					<h5>We Change Everything WordPress</h5>
+					<p class="">
+						This is the only WordPress theme you will ever want to use.
+					</p>
+				</div>
+				<div class="box-info">
+					<a class="btn btn-fill-one mb-2 mb-sm-0" href="#">READ MORE</a>
+					<a class="btn btn-fill-two mb-2 mb-sm-0" href="#">DAWNLOAD</a>
+				</div>
+			</div>
+		</section>
+		<!-- EndLanding -->
+		<!-- Friendly -->
+		<section class="Friendly bg-white py-5">
+			<div class="container" data-aos="fade-up">
+				<div class="row align__children">
+					<div class="friendly__img col-12 col-lg-7">
+						<img class="img-fluid" src="/image/macbook-preview-flexible.png" alt="" />
+					</div>
+					<div class="friendly__stuff col-12 col-lg-4 ms-md-5 text-center text-md-start">
+						<h5 class="fw-normal stuff__title">SEO Friendly</h5>
+						<p class="text-black-50 py-2 stuff__subject text-muted">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+							pulvinar luctus sem, eget porta orci. Maecenas molestie dui id
+							diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae
+							ligula et interdum. Maecenas faucibus mattis imperdiet. In
+							rhoncus ac ligula id ultricies.
+						</p>
+						<a class="btn btn-fill mb-2 mb-sm-0" href="#">READ MORE</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Friendly -->
+		<!-- Portfolio -->
+		<section class="portfolio py-5">
+			<div class="container" data-aos="fade-up">
+				<div class="row align__portfolio">
+					<div class="portfolio__stuff col-11 col-lg-4 text-start mx-4">
+						<h5 class="fw-normal stuff__title">Portfolio Section</h5>
+						<p class="text-black-50 stuff__subject text-muted py-2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+							pulvinar luctus sem, eget porta orci. Maecenas molestie dui id
+							diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae
+							ligula et interdum. Maecenas faucibus mattis imperdiet. In
+							rhoncus ac ligula id ultricies.
+						</p>
+						<a class="btn btn-fill mb-2 mb-sm-0" href="#">READ MORE</a>
+					</div>
+					<div class="portfolio__img col-12 col-lg-7">
+						<img class="img-fluid" src="/image/flexible-portfolio.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Portfolio -->
+		<!-- Parallax -->
+		<section class="parallax py-5">
+			<div class="container" data-aos="fade-up">
+				<div class="parallax__content py-5 text-center">
+					<h2>Small Parallax Section</h2>
+					<p class="py-3">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+						imperdiet rhoncus porta. Ut quis sem quis purus lobortis dictum.
+						Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget
+						tincidunt leo ornare quis.
+					</p>
+					<a class="btn btn-fill mb-2 mb-sm-0 text-uppercase" href="#">More info</a>
+				</div>
+			</div>
+		</section>
+		<!-- End Parallax  -->
+		<!-- Options -->
+		<section class="option pt-5">
+			<div class="container" data-aos="fade-up">
+				<div class="option__content text-center">
+					<div class="option__tittel">
+						<h5 class="fw-normal">Limitless Options</h5>
+						<p class="py-2 text-muted">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+							imperdiet rhoncus porta. Ut quis sem quis purus lobortis dictum.
+							Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget
+							tincidunt leo ornare quis.
+						</p>
+						<a class="btn btn-fill mb-2 mb-sm-0 text-uppercase" href="#">Download now</a>
+					</div>
+					<div class="option__img pt-4">
+						<img class="img-fluid" src="/image/photo-0.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Options -->
+		<!-- Projects -->
+		<section class="projects py-5">
+			<div class="container" data-aos="fade-up">
+				<div class="projects__content">
+					<h5 class="fw-normal text-center text-white">
+						Our Latest Projects
+					</h5>
+					<p class="py-2 text-center text-white fs-14 py-3">
+						Here is our latest projects. You'll love them!
+					</p>
+				</div>
+				<div class="project__imgs">
+					<div class="row">
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #1">
+								<img class="img-fluid" src="/image/photo-1.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #2">
+								<img class="img-fluid" src="/image/photo-2.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #3">
+								<img class="img-fluid" src="/image/photo-3.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #4">
+								<img class="img-fluid" src="/image/photo-4.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #5">
+								<img class="img-fluid" src="/image/photo-5.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #6">
+								<img class="img-fluid" src="/image/photo-6.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #7">
+								<img class="img-fluid" src="/image/photo-7.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="box mb-3" data-work="Project #8">
+								<img class="img-fluid" src="/image/photo-8.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Projects -->
+		<!-- Customers -->
+		<section class="customers py-5">
+			<h4 class="text-center text-white">What Our Customers Say</h4>
+			<div class="customers container">
+				<div class="swiper mySwiper text-center">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<p class="p-4 fs-14 text-white text-center">
+								Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl
+								velit, vehicula at nibh sed, porttitor sollicitudin ante. Sed
+								justo augue, vestibulum ut efficitur vitae, euismod et justo.
+								Mauris sed mattis ante. Ut ligula lectus, consequat vitae
+								neque ac, gravida hendrerit ante.
+							</p>
+							<img class="rounded-circle pb-2" src="/image/person 1.jpg" alt="" />
+							<br />
+							<small class="fw-bold text-white">John Doe</small>
+						</div>
+						<div class="swiper-slide">
+							<p class="p-4 fs-14 text-white text-center">
+								Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus
+								dictum, augue tortor dictum ipsum, nec congue arcu lorem in
+								nisl. Duis neque lacus, viverra non mauris ac, pharetra
+								rhoncus libero. Aliquam varius viverra ex, in venenatis magna
+								ornare sit amet. Integer varius sit amet turpis eu
+								ullamcorper.
+							</p>
+							<img class="rounded-circle pb-2" src="/image/person 2.jpg" alt="" />
+							<br />
+							<small class="fw-bold text-white">Aigars Silkalns</small>
+						</div>
+					</div>
+					<div class="swiper-button-next text-white fs-14"></div>
+					<div class="swiper-button-prev text-white"></div>
+				</div>
+			</div>
+		</section>
+		<!-- End customers -->
+		<!-- Howas Clients-->
+		<section class="howas__clients py-5 bg-white">
+			<div class="container" data-aos="fade-up">
+				<h4 class="text-center">Our Main Clients</h4>
+				<div class="swiper project__howas py-5" dir="rtl">
+					<div class="swiper-wrapper text-center">
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/adobe-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/bootstrap-logo.jpg"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/colorlib-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/css-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25"
+								src="/image/facebook-logo (1).png" alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/html5-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/js-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/less-logo.png"
+								alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img class="Img__Clients object-fit-cover w-80 opacity-25" src="/image/sass-logo.png"
+								alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Howas Clients -->
+		<!-- Howas Like -->
+		<section class="howas__like py-5">
+			<div class="container py-5" data-aos="fade-up">
+				<div class="perant__Howas d-md-flex align-items-center text-center fs-32 text-md-start">
+					<div class="perent_question">
+						<p class="title_question text-center text-md-start pt-3">
+							Do you like this awesome WordPress theme?
+						</p>
+					</div>
+					<div class="perent_btn">
+						<a class="btn-download btn fw-bold ms-sm-5" href="#">Download Now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Howas Like -->
+
+		<!-- Footer -->
+		<footer class="py-5 position-relative">
+			<div class="container">
+				<div class="the_end d-block d-md-flex align-items-md-center justify-content-md-between">
+					<div class="paragraph">
+						<p class="fs-18 fw-bold text-center">
+							Theme by <span>Colorlib</span> Powered by
+							<span>WordPresss</span>
+						</p>
+					</div>
+					<div class="social__media pb-2 text-center">
+						<a class="ms-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						<a class="ms-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a class="ms-2" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+						<a class="ms-2" href="#"><i class="fa-brands fa-youtube"></i></a>
+						<a class="ms-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="up__arrow">
+				<a href="#landing"><i class="fa fa-angle-up text-secondary"></i></a>
+			</div>
+		</footer>
+		<!-- End Footer -->
+	</main>
+	<!-- BootStrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script src="/JS/all.min.js"></script>
+	<!-- Animation on scroll library Js -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!-- Swiper library -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+		});
+
+		var swiper = new Swiper(".project__howas", {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+
+			breakpoints: {
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 30,
+				},
+				768: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				1024: {
+					slidesPerView: 4,
+					spaceBetween: 50,
+				},
+			},
+
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false,
+			},
+		});
+	</script>
+</body>
+
+</html>
